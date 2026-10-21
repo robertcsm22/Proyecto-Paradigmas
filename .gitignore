@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Base de datos local (cada quien genera la suya)
+*.db
+*.sqlite3
+
+# Credenciales WiFi del firmware (copiar desde secrets.example.h)
+firmware/tanque_iot/secrets.h
+
+# PlatformIO / Arduino
+.pio/
+build/
+
+# Editores y sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Respaldos de draw.io
+*.drawio.bkp
+*.drawio.dtmp
